@@ -73,14 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazySundays.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LazySundays.php">
+      <file leaf-file-name="05_LazySundays.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_LazySundays.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="476">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="e#6#207#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.2802198" vertical-offset="0" max-vertical-offset="374">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +98,7 @@
         <option value="$PROJECT_DIR$/03_DumpVariable.php" />
         <option value="$PROJECT_DIR$/04_Non-Repeating Digits.php" />
         <option value="$PROJECT_DIR$/LazySundays.php" />
+        <option value="$PROJECT_DIR$/05_LazySundays.php" />
       </list>
     </option>
   </component>
@@ -483,13 +482,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LazySundays.php">
+    <entry file="file://$PROJECT_DIR$/05_LazySundays.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="476">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#6#207#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.2802198" vertical-offset="0" max-vertical-offset="374">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
