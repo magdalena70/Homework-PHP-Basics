@@ -61,13 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_Non-Repeating Digits.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04_Non-Repeating Digits.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_Non-Repeating Digits.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53296703" vertical-offset="673" max-vertical-offset="1139">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state vertical-scroll-proportion="-0.26923078" vertical-offset="656" max-vertical-offset="1139">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding>
                 <element signature="e#6#1783#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazySundays.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LazySundays.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="476">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+              <folding>
+                <element signature="e#6#207#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +99,7 @@
         <option value="$PROJECT_DIR$/02_SumTwoNumbers.php" />
         <option value="$PROJECT_DIR$/03_DumpVariable.php" />
         <option value="$PROJECT_DIR$/04_Non-Repeating Digits.php" />
+        <option value="$PROJECT_DIR$/LazySundays.php" />
       </list>
     </option>
   </component>
@@ -125,7 +138,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="web.server" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -462,10 +475,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_Non-Repeating Digits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53296703" vertical-offset="673" max-vertical-offset="1139">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state vertical-scroll-proportion="-0.26923078" vertical-offset="656" max-vertical-offset="1139">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
           <folding>
             <element signature="e#6#1783#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LazySundays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32692307" vertical-offset="0" max-vertical-offset="476">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#207#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
