@@ -3,27 +3,7 @@
     <head>
         <title>07_Get Form Data</title>
         <meta charset="UTF-8"/>
-        <style>
-            body{
-                font-family: Tahoma, serif;
-                font-size: 18px;
-            }
-            input{
-                margin: 10px 0;
-                padding: 0 5px;
-            }
-            input[type="text"], input[type="age"]{
-                width: 200px;
-                height: 30px;
-            }
-            input[type="submit"]{
-                width: 130px;
-                height: 40px;
-                font-size: 22px;
-                color: gray;
-            }
-            label{color: gray;}
-        </style>
+        <link href="07_GetFormData.css" rel="stylesheet"/>
     </head>
     <body>
         <div>
