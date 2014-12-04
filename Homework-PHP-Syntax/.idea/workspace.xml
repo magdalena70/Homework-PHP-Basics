@@ -81,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="06_InformationTable.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="06_InformationTable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06_InformationTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="272" max-vertical-offset="1258">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.14243324" vertical-offset="377" max-vertical-offset="1071">
+              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
               <folding>
                 <element signature="e#6#643#0#PHP" expanded="true" />
               </folding>
@@ -93,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_GetFormData.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="06_HTML Information Table.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06_HTML Information Table.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07_GetFormData.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07_GetFormData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25222552" vertical-offset="0" max-vertical-offset="748">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="748">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="58" />
               <folding>
                 <element signature="e#767#1247#0#PHP" expanded="true" />
               </folding>
@@ -131,9 +141,10 @@
         <option value="$PROJECT_DIR$/04_Non-Repeating Digits.php" />
         <option value="$PROJECT_DIR$/LazySundays.php" />
         <option value="$PROJECT_DIR$/05_LazySundays.php" />
-        <option value="$PROJECT_DIR$/06_InformationTable.php" />
         <option value="$PROJECT_DIR$/07_GetFormData.css" />
         <option value="$PROJECT_DIR$/07_GetFormData.php" />
+        <option value="$PROJECT_DIR$/06_HTML Information Table.css" />
+        <option value="$PROJECT_DIR$/06_InformationTable.php" />
       </list>
     </option>
   </component>
@@ -473,16 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06_InformationTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="272" max-vertical-offset="1258">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#643#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_GetFormData.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -493,10 +494,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07_GetFormData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25222552" vertical-offset="0" max-vertical-offset="748">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="748">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="58" />
           <folding>
             <element signature="e#767#1247#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_HTML Information Table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_InformationTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14243324" vertical-offset="377" max-vertical-offset="1071">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#6#643#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

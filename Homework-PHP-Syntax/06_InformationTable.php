@@ -23,18 +23,7 @@ $address = 'Hadji Dimitar';
 <html>
     <head>
         <title>06_HTML Information Table</title>
-        <style>
-            table{
-                background: lightgray;
-                font-size: 20px;
-                border: solid 2px darkgray;
-            }
-            tr, td{
-                border: solid 1px darkgray;
-                padding: 15px;
-            }
-            tr>td:nth-child(1){font-weight: bold;}
-        </style>
+        <link href="06_HTML Information Table.css" rel="stylesheet"/>
     </head>
     <body>
         <table cellspacing="0">
