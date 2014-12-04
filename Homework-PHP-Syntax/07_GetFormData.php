@@ -32,7 +32,7 @@
             $name = $_GET['name'];
             $age = $_GET['age'];
             $gender = $_GET['gender'];
-            echo "My name is $name. I am $age years old.I am $gender.";
+            echo 'My name is '. htmlentities($name) . ' I am ' . htmlentities($age) . ' years old.I am ' . htmlentities($gender) . '.';
         }
         ?>
     </body>
