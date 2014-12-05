@@ -1,4 +1,6 @@
 <?php
+/* Find day of week today and day of week before two years. */
+
 date_default_timezone_set('Europe/Sofia');
 echo 'Today is '.date("d")." ".date("m")." ".date("Y")." ".date("h:i:s A").' - ';
 echo jddayofweek ( cal_to_jd(CAL_GREGORIAN, date("m"),date("d"), date("Y")) , 2 )."<br/><br/>";
@@ -11,7 +13,7 @@ $interval->invert = 1;
 $day_before_2Y = new DateTime();
 $day_before_2Y->add($interval);
 echo 'The day of week before 2 year has been - ';
-    switch( $day_before_1Y->format('w')){
+    switch( $day_before_2Y->format('w')){
         case 0: echo $day_before_2Y->format('jS F, Y').' - Sunday';break;
         case 1: echo $day_before_2Y->format('jS F, Y').' - Monday';break;
         case 2: echo $day_before_2Y->format('jS F, Y').' - Tuesday';break;
