@@ -6,7 +6,7 @@ August:
 17th August 2014
 24th August 2014
 31th August 2014 */
-
+date_default_timezone_set('Europe/Sofia');
 $currentDate = new DateTime();
 $firstDate = new DateTime($currentDate->format('m/01/Y'));
 $lastDate = new DateTime($firstDate->format('m/31/Y'));
