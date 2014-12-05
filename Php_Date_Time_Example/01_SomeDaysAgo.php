@@ -16,25 +16,25 @@ echo $date2->format('jS F, Y h:ia') . ' - is Now 10 days in the future.' . "<br/
 
 $date1->sub(new DateInterval('PT30M'));//thirty minutes from now
 echo $date1->format('jS F, Y h:ia') . ' - is Now 30 minutes in the past.' . "<br/><hr/>" . PHP_EOL;
-
+/*------------*/
 $now =  new DateTime();
 echo 'Today is - ' . $now->format('d-m-Y G:i:s') . "<br/><br/>";
-$future = new DateTime(' +10 year +0 months +10 days +10 minute +10 seconds');
+$future = new DateTime(' +10 year +0 months +10 days +10 minute +10 seconds');//in the future
 echo $future->format('d-m-Y G:i:s') . ' - that is (+10 year +10 days +10 minute +10 seconds) from Today.' . "<br/><br/>" . PHP_EOL;
 
-$past = new DateTime(' -10 year -0 months -10 days -10 minute -10 seconds');
+$past = new DateTime(' -10 year -0 months -10 days -10 minute -10 seconds');//in the past
 echo $past->format('d-m-Y G:i:s') . ' - that is (-10 year -10 days -10 minute -10 seconds) from Today.' . "<br/><hr/>" . PHP_EOL;
-
+/*------------*/
 $date3 = new DateTime();
-echo 'Today is - ' . $date3->format('d-m-Y G:i:s') . "<br/><br/>" . PHP_EOL;
+echo 'Today is - ' . $date3->format('d/m/Y h:i:s') . "<br/><br/>" . PHP_EOL;
 $interval = new DateInterval('P2Y3M4DT6H8M');
 $interval->invert = 0;
 $date3->add($interval);
-echo $interval->format('(%y +years, %m +mounts, %d +days, %h +hours, %i +minutes) ').'from today is ' . $date3->format('d-m-Y G:i:s') . "<br/><br/>" . PHP_EOL ;
+echo $interval->format('Today +(%y years, %m mounts, %d days, %h hours, %i minutes) ').' = ' . $date3->format('d/m/Y  h:i:s') . "<br/><br/>" . PHP_EOL ;
 
 $date4 = new DateTime();
 $interval->invert = 1;
 $date4->add($interval);
-echo $interval->format('(%y -years, %m -mounts, %d -days, %h -hours, %i -minutes) ').'from today is ' . $date4->format('d-m-Y G:i:s') . "<br/><br/>" . PHP_EOL ;
+echo $interval->format('Today -(%y years, %m mounts, %d days, %h hours, %i minutes) ').' = ' . $date4->format('d/m/Y  h:i:s') . "<br/><br/>" . PHP_EOL ;
 
 ?>
