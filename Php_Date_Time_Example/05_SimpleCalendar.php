@@ -34,8 +34,6 @@ $monthName = date('F', $firstDay) ;
                 <td width="100" bgcolor='gray' style='color:white;'>Saturday</td>
             </tr>
             <?php
-
-
             $maxDay = date("t",$firstDay);
             $thisMonth = getdate ($firstDay);
             $startDay = $thisMonth['wday'];
