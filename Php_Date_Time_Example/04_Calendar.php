@@ -1,5 +1,5 @@
 <?php
-/*http://www.phpjabbers.com/how-to-make-a-php-calendar-php26.html*/
+
 $monthNames = Array("January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December");
 
