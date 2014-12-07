@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('Europe/Sofia');
 $monthNames = Array("January", "February", "March", "April", "May", "June", "July",
     "August", "September", "October", "November", "December");
 
