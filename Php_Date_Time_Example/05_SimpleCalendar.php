@@ -29,7 +29,7 @@ $monthName = date('F', $firstDay) ;
                 <td width="100" bgcolor='gray' style='color:white;'>Monday</td>
                 <td width="100" bgcolor='gray' style='color:white;'>Tuesday</td>
                 <td width="100" bgcolor='gray' style='color:white;'>Wednesday</td>
-                <td width="100" bgcolor='gray' style='color:white;'>Tuesday</td>
+                <td width="100" bgcolor='gray' style='color:white;'>Thursday</td>
                 <td width="100" bgcolor='gray' style='color:white;'>Friday</td>
                 <td width="100" bgcolor='gray' style='color:white;'>Saturday</td>
             </tr>
