@@ -45,7 +45,7 @@ $monthName = date('F', $firstDay) ;
                 if($i < $startDay){
                     echo "<td></td>";
                 } else {
-                        echo "<td width='100'  height='50px' align='center' valign='middle' bgcolor='gray' style='color:white;'>" . ($i - $startDay + 1) . "</td>";
+                        echo "<td width='100'  height='50' align='center' valign='middle' bgcolor='gray' style='color:white;'>" . ($i - $startDay + 1) . "</td>";
                 }
 
                 if(($i % 7) == 6 ){
