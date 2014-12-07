@@ -81,6 +81,7 @@ if ($next_month == 13 ) {
                     $thismonth = getdate ($timestamp);
                     $startday = $thismonth['wday'];
                     $mount = date('m');
+                    $year = date('Y');
                     for ($i=0; $i<($maxday+$startday); $i++) {
                         if(($i % 7) == 0 ){
                             echo "<tr>";
@@ -89,10 +90,12 @@ if ($next_month == 13 ) {
                         if($i < $startday){
                             echo "<td></td>";
                         } else {
-                            if(($i != $currentDay)||($i == $currentDay && $mount !== $currentMonth)) {
-                                echo "<td align='center' valign='middle' height='50px' bgcolor='black' style='color:white;'>" . ($i - $startday + 1) . "</td>";
+                            if(($i != $currentDay)||
+                                ($i == $currentDay && $mount !== $currentMonth)||
+                                ($mount == $currentMonth && $year !== $currentYear)) {
+                                    echo "<td align='center' valign='middle' height='50px' bgcolor='black' style='color:white;'>" . ($i - $startday + 1) . "</td>";
                             }
-                            if($i == $currentDay && $mount === $currentMonth){
+                            if(($i == $currentDay) && ($mount === $currentMonth) && ($year === $currentYear)){
                                 echo "<td align='center' valign='middle' height='50px' bgcolor='black' style='color:red;border:solid 2px red;'>". "Today<br/>".($i - $startday + 1) ."</td>";
                             }
                         }
