@@ -51,11 +51,11 @@ if (isset($_POST['amount']) && isset($_POST['interest']) && isset($_POST['curren
         <form method="post" action="03_CalculateInterest.php">
             <label for="amount">Enter Amount</label>
             <input type="text" name="amount"><br/><br/>
-            <input type="radio" name="currency" value="$">
+            <input type="radio" name="currency" id="usd" value="$">
             <label for="usd">USD</label>
-            <input type="radio" name="currency" value="EUR">
+            <input type="radio" name="currency" id="eur" value="EUR">
             <label for="eur">EUR</label>
-            <input type="radio" name="currency" value="BGN">
+            <input type="radio" name="currency" id="bgn" value="BGN">
             <label for="bgn">BGN</label><br/>
             <label for="interest">Compound interest amount</label>
             <input type="text" name="interest"><br/><br/>

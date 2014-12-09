@@ -45,25 +45,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_CalculateInterest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="03_CalculateInterest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_CalculateInterest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="425" max-vertical-offset="1343">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
+            <state vertical-scroll-proportion="0.4622144" vertical-offset="638" max-vertical-offset="1343">
+              <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+              <folding>
+                <element signature="e#7#1179#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_HTMLTagsCounter.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04_HTMLTagsCounter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_HTMLTagsCounter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9388489" vertical-offset="294" max-vertical-offset="969">
+            <state vertical-scroll-proportion="-20.076923" vertical-offset="294" max-vertical-offset="969">
               <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <marker date="1418152484095" expanded="true" signature="1519:1561" placeholder="..." />
                 <marker date="1418152484095" expanded="true" signature="1534:1561" placeholder="..." />
                 <marker date="1418152484095" expanded="true" signature="1645:1671" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-CVGenerator.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-CVGenerator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding>
+                <element signature="e#6#261#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +96,9 @@
       <list>
         <option value="$PROJECT_DIR$/01_PrintTags.php" />
         <option value="$PROJECT_DIR$/02_MostFrequentTag.php" />
-        <option value="$PROJECT_DIR$/03_CalculateInterest.php" />
         <option value="$PROJECT_DIR$/04_HTMLTagsCounter.php" />
+        <option value="$PROJECT_DIR$/05-CVGenerator.php" />
+        <option value="$PROJECT_DIR$/03_CalculateInterest.php" />
       </list>
     </option>
   </component>
@@ -240,14 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_CalculateInterest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="425" max-vertical-offset="1343">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_MostFrequentTag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.576923" vertical-offset="451" max-vertical-offset="1088">
@@ -258,12 +266,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_HTMLTagsCounter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9388489" vertical-offset="294" max-vertical-offset="969">
+        <state vertical-scroll-proportion="-20.076923" vertical-offset="294" max-vertical-offset="969">
           <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <marker date="1418152484095" expanded="true" signature="1519:1561" placeholder="..." />
             <marker date="1418152484095" expanded="true" signature="1534:1561" placeholder="..." />
             <marker date="1418152484095" expanded="true" signature="1645:1671" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#261#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_CalculateInterest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4622144" vertical-offset="638" max-vertical-offset="1343">
+          <caret line="53" column="55" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding>
+            <element signature="e#7#1179#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
