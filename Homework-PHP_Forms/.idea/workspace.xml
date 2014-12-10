@@ -55,15 +55,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="04_HTMLTagsCounter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="04_HTMLTagsCounter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/04_HTMLTagsCounter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.076923" vertical-offset="294" max-vertical-offset="969">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.7767355" vertical-offset="300" max-vertical-offset="901">
+              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding>
-                <marker date="1418152484095" expanded="true" signature="1519:1561" placeholder="..." />
-                <marker date="1418152484095" expanded="true" signature="1534:1561" placeholder="..." />
-                <marker date="1418152484095" expanded="true" signature="1645:1671" placeholder="..." />
+                <marker date="1418251368581" expanded="true" signature="1535:1577" placeholder="..." />
+                <marker date="1418251368581" expanded="true" signature="1550:1577" placeholder="..." />
+                <marker date="1418251368581" expanded="true" signature="1660:1686" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -133,17 +133,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05-CVGenerator.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05-CVGenerator.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-CVGenerator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="221" max-vertical-offset="1666">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#fieldset#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#fieldset#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#fieldset#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-CVGenerator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-CVGenerator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,10 +170,11 @@
       <list>
         <option value="$PROJECT_DIR$/01_PrintTags.php" />
         <option value="$PROJECT_DIR$/02_MostFrequentTag.php" />
-        <option value="$PROJECT_DIR$/04_HTMLTagsCounter.php" />
         <option value="$PROJECT_DIR$/03_CalculateInterest.php" />
         <option value="$PROJECT_DIR$/05-CVGenerator.php" />
+        <option value="$PROJECT_DIR$/05-CVGenerator.js" />
         <option value="$PROJECT_DIR$/05-CVGenerator.html" />
+        <option value="$PROJECT_DIR$/04_HTMLTagsCounter.php" />
       </list>
     </option>
   </component>
@@ -330,18 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_HTMLTagsCounter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.076923" vertical-offset="294" max-vertical-offset="969">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <marker date="1418152484095" expanded="true" signature="1519:1561" placeholder="..." />
-            <marker date="1418152484095" expanded="true" signature="1534:1561" placeholder="..." />
-            <marker date="1418152484095" expanded="true" signature="1645:1671" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_CalculateInterest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="408" max-vertical-offset="1343">
@@ -420,15 +419,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05-CVGenerator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-CVGenerator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="221" max-vertical-offset="1666">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#fieldset#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#fieldset#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#fieldset#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7767355" vertical-offset="300" max-vertical-offset="901">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <marker date="1418251368581" expanded="true" signature="1535:1577" placeholder="..." />
+            <marker date="1418251368581" expanded="true" signature="1550:1577" placeholder="..." />
+            <marker date="1418251368581" expanded="true" signature="1660:1686" placeholder="..." />
           </folding>
         </state>
       </provider>

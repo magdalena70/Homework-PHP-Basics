@@ -1,4 +1,5 @@
 <?php
+session_start();
 /*Write a PHP script HTMLTagsCounter.php which generates an HTML form like in the example below.
  It should contain a label, an input text field and a submit button.
  The user enters HTML tag in the input field. If the tag is valid, the script should print “Valid HTML tag!”,
@@ -15,7 +16,6 @@ $validTags = ["!DOCTYPE","a","abbr","acronym","address","applet","area","article
     "select","small","source","span","strike","strong","style","sub","summary","sup","table","tbody","td","textarea","tfoot","th",
     "thead","time","title","tr","track","tt","u","ul","var","video","wbr"
 ];
-
 ?>
 <!DOCTYPE html>
     <html>
@@ -23,16 +23,13 @@ $validTags = ["!DOCTYPE","a","abbr","acronym","address","applet","area","article
             <meta charset="UTF_8"/>
             <title>04_Tags Counter</title>
         </head>
-
         <body>
             <form method="post" action="04_HTMLTagsCounter.php">
                 <label for="input">Enter HTML Tags</label><br/>
                 <input type="text" name="input">
                 <input type="submit" value="Submit">
             </form>
-
             <?php
-            session_start();
             $_SESSION['score'];
             var_dump($_SESSION['score']);
             $result = [];
@@ -44,7 +41,6 @@ $validTags = ["!DOCTYPE","a","abbr","acronym","address","applet","area","article
                     echo "<h2>Score: ".$_SESSION['score']."</h2>";
                 } else {
                     echo "<h2>Invalid HTML Tag!</h2>";
-                    $_SESSION['score']--;
                 }
             }
             ?>
