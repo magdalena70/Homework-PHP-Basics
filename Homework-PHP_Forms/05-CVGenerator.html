@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>05_CV Generator</title>
+</head>
+<body>
+    <form method="post" action="05-CVGenerator.php">
+
+        <fieldset style="width: 550px;">
+            <legend>Personal Information</legend>
+            <input type="text" name="fName" placeholder="First name" pattern="[a-zA-Z]{2,20}" title="Between 2 and 20 latin letters" required="required"><br/>
+            <input type="text" name="lName" placeholder="Last Name" pattern="[a-zA-Z]{2,20}" title="Between 2 and 20 latin letters" required="required"><br/>
+            <input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" required="required"><br/>
+            <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9+\s]+" title="Only +, digits and space" required="required"><br/>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male"><br/>
+            <label for="bDay">Birth Date</label><br/>
+            <input type="date" name="bDay" required="required"><br/>
+            <label for="nationality">Nationality</label><br/>
+            <select name="nationality">
+                <option value="Bulgarian">Bulgarian</option>
+                <option value="English">English</option>
+                <option value="Italian">Italian</option>
+                <option value="Indian">Indian</option>
+            </select>
+        </fieldset>
+
+        <fieldset style="width: 550px;">
+            <legend>Last Work Position</legend>
+            <label for="company">Company name</label>
+            <input type="text" name="company" pattern="[a-zA-Z]{2,20}" title="Between 2 and 20 latin letters" required="required"><br/>
+            <label for="from">From</label>
+            <input type="date" name="from" required="required"><br/>
+            <label for="to">To</label>
+            <input type="date" name="to" required="required">
+        </fieldset>
+
+        <fieldset style="width: 550px;">
+            <legend>Computer Skills</legend>
+            <label for="progrLang">Programming Language</label><br/>
+            <input type="text" name="progrLang[]" required="required">
+            <select name="level[]">
+                <option value="Beginner" selected>Beginner</option>
+                <option value="Programmer">Programmer</option>
+                <option value="Ninja">Ninja</option>
+            </select><br/>
+            <input type="button" value="Remove Language" onclick="removeLanguage()">
+            <input type="button" value="Add Language" onclick="addLanguage()">
+        </fieldset>
+
+        <fieldset style="width: 550px;">
+            <legend>Other skills</legend>
+            <label for="language">Language</label><br/>
+            <input type="text" name="language[]" required="required">
+            <select name="comprehension[]">
+                <option selected >Comprehension</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <select name="reading[]">
+                <option selected >Reading</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <select name="writing[]">
+                <option selected >Writing</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+            <input type="button" value="Remove Language" onclick="removeLanguage()">
+            <input type="button" value="Add Language" onclick="addLanguage()"><br/>
+            <label >Driver's License</label><br/>
+            <label for="b">B</label>
+            <input type="radio" name="license[]" value="B">
+            <label for="a">A</label>
+            <input type="radio" name="license[]" value="A">
+            <label for="c">C</label>
+            <input type="radio" name="license[]" value="C">
+        </fieldset>
+
+        <input type="submit"  name="submit" value="Generate CV">
+
+    </form>
+</body>
+</html>
