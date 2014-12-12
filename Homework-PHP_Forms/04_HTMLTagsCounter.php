@@ -32,6 +32,10 @@ $validTags = ["!DOCTYPE","a","abbr","acronym","address","applet","area","article
             <?php
             $_SESSION['score'];
             var_dump($_SESSION['score']);
+            if (!isset( $_SESSION[ 'score' ] )) {
+                $_SESSION[ 'score' ] = 0;
+            }
+
             $result = [];
             if (isset($_POST['input'])){
                 $input = $_POST['input'];
