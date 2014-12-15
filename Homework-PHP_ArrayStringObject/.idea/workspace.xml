@@ -35,16 +35,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_TextColorer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02_TextColorer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_TextColorer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40246046" vertical-offset="111" max-vertical-offset="765">
+            <state vertical-scroll-proportion="-8.807693" vertical-offset="111" max-vertical-offset="765">
               <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <marker date="1418616871489" expanded="true" signature="1230:1241" placeholder="..." />
                 <marker date="1418616871489" expanded="true" signature="1242:1468" placeholder="..." />
                 <marker date="1418616871489" expanded="true" signature="1335:1347" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_SidebarBuilder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_SidebarBuilder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.153847" vertical-offset="294" max-vertical-offset="918">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding>
+                <marker date="1418653599198" expanded="true" signature="1980:2063" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_SidebarBuilder.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_SidebarBuilder.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.94285715" vertical-offset="136" max-vertical-offset="816">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,6 +83,8 @@
       <list>
         <option value="$PROJECT_DIR$/01_WordMapper.php" />
         <option value="$PROJECT_DIR$/02_TextColorer.php" />
+        <option value="$PROJECT_DIR$/03_SidebarBuilder.php" />
+        <option value="$PROJECT_DIR$/03_SidebarBuilder.css" />
       </list>
     </option>
   </component>
@@ -220,13 +244,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_TextColorer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40246046" vertical-offset="111" max-vertical-offset="765">
+        <state vertical-scroll-proportion="-8.807693" vertical-offset="111" max-vertical-offset="765">
           <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
             <marker date="1418616871489" expanded="true" signature="1230:1241" placeholder="..." />
             <marker date="1418616871489" expanded="true" signature="1242:1468" placeholder="..." />
             <marker date="1418616871489" expanded="true" signature="1335:1347" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_SidebarBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.153847" vertical-offset="294" max-vertical-offset="918">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <marker date="1418653599198" expanded="true" signature="1980:2063" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_SidebarBuilder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94285715" vertical-offset="136" max-vertical-offset="816">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
