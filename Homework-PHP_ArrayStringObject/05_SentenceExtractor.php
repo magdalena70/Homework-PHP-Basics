@@ -11,7 +11,7 @@ mb_internal_encoding("UTF-8");
 <!DOCTYPE html>
 <html>
     <head>
-        <title>03_SidebarBuilder</title>
+        <title>05_SentenceExtractor</title>
     </head>
     <body>
         <form method="post" action="05_SentenceExtractor.php">
