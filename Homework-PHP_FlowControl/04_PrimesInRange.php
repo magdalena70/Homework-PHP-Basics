@@ -25,7 +25,7 @@
                         echo "Invalid data! Please enter: <strong>[Starting Index < End]</strong>.";
                     }else {
                         for ($i = $start; $i <= $end; $i++) {
-                            if (!isPrime($i)) {
+                            if(!isPrime($i)) {
                                 echo $i . ' ';
                             } else {
                                 echo "<strong style='color: red'>$i</strong>" . ' ';
@@ -36,18 +36,19 @@
             }
 
             function isPrime($number){
-                if(($number == 1)||($number%2 == 0)){
-                    return false;
-                }
-                if($number == 2){
-                    return true;
-                }
-                for($i = 3;$i < sqrt($number);$i+=2){
-                    if($number%$i == 0){
-                        return false;
+                $primeNum = true;
+                if($number == 1){
+                    $primeNum = false;
+                }else if($number == 2 || $number == 3) {
+                    $primeNum = true;
+                }else{
+                    for ($i = 2; $i <= sqrt($number); $i++) {
+                        if($number % $i == 0) {
+                            $primeNum = false;
+                        }
                     }
                 }
-                return true;
+                return $primeNum;
             }
         ?>
     </body>

@@ -28,7 +28,7 @@
             $result = "";
             for ($i = 0; $i < count($cars); $i++) {
                 $randomColor = $colors[rand(0,count($colors) - 1)];
-                $randomCount = rand(1,9);
+                $randomCount = rand(1,5);
                 $result .= "<tr>
 							    <td width='33%' bgcolor='gray' style='color: GhostWhite' align='center'>$cars[$i]</td>
 							    <td width='33%' bgcolor='gray' style='color: GhostWhite' align='center'>$randomColor</td>
