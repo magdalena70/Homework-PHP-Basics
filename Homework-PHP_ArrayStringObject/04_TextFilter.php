@@ -30,13 +30,13 @@ mb_internal_encoding("UTF-8");
                     $banlist = preg_split('/[, ]+/', $ban, 0, PREG_SPLIT_NO_EMPTY);
                     //var_dump($banlist);//check $banlist
                     for($i = 0;$i < count($banlist);$i++){
-                        $pattern = '/\\b' . $banlist[$i] . '\\b/';
+                        $pattern = "/\\b".$banlist[$i]."\\b/";
                         $replace = str_repeat("*", strlen($banlist[$i]));
                         $text = preg_replace($pattern, $replace, $text);
                     }
                     echo "<div style='width: 360px;'>".htmlentities($text)."</div>";
                 } else {
-                    echo "Empty Text-field or empty Banlist";
+                    echo "Empty Text-field or empty banlist";
                 }
             }
             ?>
