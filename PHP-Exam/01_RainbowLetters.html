@@ -1,0 +1,44 @@
+<!-- Write a PHP program that reads a text, 3 numbers in the range (0-255)
+ and number n and then colors certain letters from the text according to input data received.
+  You will read the following data:
+-Text
+-Red value
+-Green Value
+-Blue Value
+-n-th letter
+First, you have to convert the three color values (red, green, blue) into hexadecimal format
+ and create a valid RGB color (e.g. #ffffff, #ff0000). Then you have to put every n-th letter
+ from the input text in <span></span> tags and add the attribute style="color: [rgbColor]".
+ The entire text should be put in paragraph tags <p></p>.
+For example we are given n-th letter 2, RGB values 255, 0 and 0 and the word "Hello".
+ We convert (255, 0, 0) to hexadecimal format #ff0000 and color each n-th letter from the text
+ (in this case, every 2nd letter). The result should be:
+ <p>H<span style="color: #ff0000">e</span>l<span style="color: #ff0000">l</span>o</p>
+  Input
+The input will be read from an HTTP GET request.
+The text will be received from a text input field with name 'text'.
+The color values will be received from 3 text input fields with names 'red', 'green' and 'blue'.
+The n-th word will be received from a text input field with name 'nth'.-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>01_RainbowLetters</title>
+    </head>
+    <body>
+        <form method="get" action="01_RainbowLetters.php">
+            <label for="text">Text:</label>
+            <input type="text" name="text"><br/><br/>
+            <label for="red">Red:</label>
+            <input type="text" name="red">
+            <label for="green">Green:</label>
+            <input type="text" name="green">
+            <label for="blue">Blue:</label>
+            <input type="text" name="blue"><br/><br/>
+            <label for="nth">n-th word:</label>
+            <input type="text" name="nth"><br/><br/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
