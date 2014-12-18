@@ -1,0 +1,44 @@
+<!-- Write a PHP program that reads several unformatted Facebook posts from a textarea
+ and converts them into formatted Facebook posts. All posts will be in the format
+ [author];[ddmmyy];[post];[likesCount];[comment1/comment 2]. Note that the comments part is optional.
+ Each comment wil be seperated by slash "/". If they are no comments, this part will be empty.
+ The data should be extracted and put in HTML tags in the following format:
+<article>
+<header><span>[author]</span><time>[date]</time></header>
+<main><p>[post]</p></main>
+<footer><div class="likes">[likesCount] people like this</div>
+// the div below is optional
+<div class="comments"><p>[Comment1]</p><p>[Comment2]</p></div>
+</footer>
+</article>
+date denotes the date, displayed as English word for the month and number with no leading zeroes for the day
+(e.g. input date 02-09-2014 becomes "2 September 2014"). For example, we are given the following post:
+Pesho Meshev ;02-09-2014;    Sometimes I post very deep messeges on facebook that have nothing to do
+with who I am or what I do, but I like people to think that I am very, very deep.    ;160; Such a confession...
+/hahaha this is so NOT funny
+The colored parts denote the necessary information. Any unnecessary whitespace on the left or right should be removed.
+ The result is:
+<article>
+<header><span>Pesho Meshev</span><time>2 September 2014</time></header>
+<main><p>Sometimes I post very deep messeges on facebook that have nothing to do with who I am or what I do,
+but I like people to think that I am very, very deep.</p></main>
+<footer><div class="likes">160 people like this</div><div class="comments"><p>Such a confession...</p>
+<p>hahaha this is so NOT funny</p></div></footer>
+</article>
+If there are no comments, the respective part should be omitted. If there are multiple posts,
+they should be sorted by date (from most recent to oldest). -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>02_FacebookPosts</title>
+    </head>
+    <body>
+        <form method="get" action="02_FacebookPosts.php">
+            <label for="text">Text:</label>
+            <textarea name="text" rows="10" cols="50"></textarea><br/><br/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
