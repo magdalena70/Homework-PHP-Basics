@@ -52,11 +52,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_FacebookPosts.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02_FacebookPosts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_FacebookPosts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37258348" vertical-offset="264" max-vertical-offset="901">
-              <caret line="28" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
+            <state vertical-scroll-proportion="-8.807693" vertical-offset="264" max-vertical-offset="901">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_TextAbbreviator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_TextAbbreviator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="546">
+              <caret line="13" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_TextAbbreviator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_TextAbbreviator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="595">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -88,6 +108,8 @@
         <option value="$PROJECT_DIR$/01_RainbowLetters.php" />
         <option value="$PROJECT_DIR$/02_FacebookPosts.html" />
         <option value="$PROJECT_DIR$/02_FacebookPosts.php" />
+        <option value="$PROJECT_DIR$/03_TextAbbreviator.html" />
+        <option value="$PROJECT_DIR$/03_TextAbbreviator.php" />
       </list>
     </option>
   </component>
@@ -300,8 +322,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02_FacebookPosts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37258348" vertical-offset="264" max-vertical-offset="901">
-          <caret line="28" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
+        <state vertical-scroll-proportion="-8.807693" vertical-offset="264" max-vertical-offset="901">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_TextAbbreviator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="595">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_TextAbbreviator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="546">
+          <caret line="13" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,30 @@
+<!-- Write a PHP script that takes as input a list of strings and displays them as HTML list
+where the lines longer than certain length are abbreviated while all others are displayed fully.
+For example, if the text is "To define a table in HTML use <table>, <td> and <tr> tags."
+and the length is 50, the abbreviated text is "To define a table in HTML use <table>, <td> and <t..."
+(50 characters + 3 characters "...").
+The output should be a HTML list <ul><li>…</li></ul>.
+Ensure you encode correctly in the output all HTML special characters like &, <, > and "
+(use htmlspecialchars() function in PHP).
+Input
+The input will be read from an HTTP GET request holding parameters named list and maxSize,
+specifying the list of strings and the abbreviation limit.
+The input strings are separated one from another by a new line.
+All whitespace at the start and at the end of each line is ignored, as well as lines holding only whitespace. -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>03_TextAbbreviator</title>
+    </head>
+    <body>
+        <form method="get" action="03_TextAbbreviator.php">
+            <label for="list">List:</label><br/>
+            <textarea name="list" rows="10" cols="50"></textarea><br/>
+            <label for="maxSize">Max Size:</label>
+            <input type="text" name="maxSize">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
