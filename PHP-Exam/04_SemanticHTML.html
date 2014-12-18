@@ -1,0 +1,27 @@
+<!-- You are given an HTML code, written in the old non-semantic style using tags like
+<div id="header">, <div class="section">, etc. Your task is to write a PHP script
+that converts this HTML to semantic HTML by changing tags like <div id="header">
+to their semantic equivalent like <header>.
+The non-semantic tags that should be converted are always <div>s and have either id
+or class with one of the following values: "main", "header", "nav", "article", "section", "aside" or "footer".
+Their corresponding closing tags are always followed by comment like <!-- header --> <!-- nav -->
+<!-- etc. staying at the same line, after the tag.
+Input
+The input will be read from an HTTP GET request holding a parameter named html. See the examples below.
+Output
+The output is the semantic-version of the input HTML. In all converted tags should make multiple spaces
+(like <header      style="color:red">) single and remove excessive spaces at the end (like <footer      >).-->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form method="get" action="04_SemanticHTML.php">
+            <textarea name="html" rows="10" cols="60" placeholder="Input HTML code, written in the old non-semantic style"></textarea><br/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
