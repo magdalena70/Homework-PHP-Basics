@@ -1,0 +1,40 @@
+<!-- Write a PHP program to encrypt an email message. The email message consists of recipient,
+subject and message body. The first step is to format the email message as HTML in the following format
+(ensure you handle correctly all HTML special chars with the htmlspecialchars() PHP function):
+
+<p class='recipient'>recipient</p><p class='subject'>subject</p><p class='message'>message body</p>
+
+You are also given an encryption key. The second step is to encrypt the formatted message by this encryption key
+using the following algorithm:
+multiply the ASCII code of the first letter of the message with the ASCII code of the first letter of the key,
+then the second letter of the message, with the second letter of the key, etc.
+When the last letter of the key is reached, the encryption is restarted again from the first letter of the key.
+The obtained numbers should be stored in hexadecimal format, separated by |.
+For example, if we encrypt the message "Hello PHP" with the key "3G@p", the result will be
+"|e58|1c03|1b00|2f40|161d|8e0|1400|1f80|ff0|" (because 'H' * '3' = 72*51 = 3672 = e58;
+'e' * 'G' = 101*71 = 7171 = 1c03; …; 'H' * 'p' = 72*112 = 8054 = 1f80; 'P' * '3' = 80*51 = 4080 = ff0).
+Input
+The input will be read from an HTTP GET request holding parameters named recipient, subject, body and key.
+Output
+The output should hold the encrypted email message. -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>05_EmailEncryption</title>
+    </head>
+    <body>
+        <form method="get" action="05_EmailEncryption.php">
+            <label form="recipient">Recipient</label>
+            <input type="text" name="recipient">
+            <label form="subject">Subject</label>
+            <input type="text" name="subject">
+            <label form="key">Key</label>
+            <input type="text" name="key"><br/><br/>
+            <label form="body">Body</label>
+            <textarea name="body" rows="10" cols="50"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
