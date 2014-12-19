@@ -1,0 +1,25 @@
+<!-- Write a PHP script to reverse the letters of all uppercase words in a text.
+In case an uppercase word stays unchanged after reversing its letters, then double each of its letters.
+A word is a sequence of Latin letters separated by non-letter characters
+(e.g. punctuation characters or digits). For example, the text "PHP5 is the latest PHP currently, YES"
+consists of the following words: PHP, is, the, latest, PHP, currently, YES.
+Input
+The input will be read from an HTTP GET request holding a parameter named text.
+Output
+The output should hold the result text, printed in HTML paragraph.
+Ensure you escape correctly the HTML special characters in the output with htmlspecialchars(). -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>06_UppercaseWords</title>
+    </head>
+    <body>
+        <form method="get" action="06_UppercaseWords.php">
+            <textarea name="text" placeholder="Enter Text" rows="10" cols="50"
+                      title="A word is a sequence of Latin letters separated by non-letter characters"></textarea>
+            <input type="submit" value="Reverse">
+        </form>
+    </body>
+</html>
