@@ -1,0 +1,36 @@
+<!-- Write a PHP program that reads a text from a textarea and several settings and modifies the text
+according to these settings. You will receive 3 fields – minimum font size, maximum font size and step.
+Each text character should be printed in <span></span> tags.
+The first character starts with the minimum font size, printed as a style in the span tag in format:
+<span style="[fontSize];">[character]</span>
+Each consecutive character should be printed the same way. If the character is a letter,
+the font size for the next character should increment by the step until it reaches or passes over the maximum font size.
+Then it should start decrementing by the step until it reaches its minimum font size.
+Then it should start increasing again, and so on.
+For example, if minFontSize=4, maxFontSize=8 and step=3, the font size will change as follows: 4, 7, 10, 7, 4, 7, 10, 7, …
+Each character, whose ASCII value is an even number should be stroke using the style "text-decoration:line-through;".
+If the ASCII value of the character is odd, this style should be omitted.
+Input
+The input will be read from an HTTP GET request. The text will be received from a textarea named 'text'.
+The minimum font size will be received from a text field 'minFontSize'.
+The maximum font size will be received from a text field 'maxFontSize'. The step will be received from a text field 'step'.
+Output
+Each character should be printed in its own <span></span> tags.
+Ensure you escape the characters in the output using htmlspecialchars(). -->
+
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form method="get" action="07_DropIt.php">
+            <textarea name="text" rows="10" cols="50" placeholder="Enter Text"></textarea><br/><br/>
+            <input type="text" name="minFontSize" placeholder="Minimum Font Size">
+            <input type="text" name="maxFontSize" placeholder="Maximum Font Size">
+            <input type="text" name="step" placeholder="Step"><br/><br/>
+            <input type="submit" value="Drop It">
+        </form>
+    </body>
+</html>
