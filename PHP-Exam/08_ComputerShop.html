@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>08_ComputerShop</title>
+    </head>
+    <body>
+        <form method="get" action="08_ComputerShop.php">
+            <fieldset>
+                <legend>Computer Shop</legend><br/>
+                <label for="list">List:</label><br/>
+                <textarea name="list" cols="140" rows="10" id="list">
+                    SONY VAIO SVF13N1X2ES | laptop | INTEL CORE i5-4260U, 4 GB RAM, INTEL HD GRAPHICS 5000 | 2399.00
+                    PACKARD BELL IMEDIA S2185 (SFF) | desktop | INTEL CELERON N2815 Dual Core, 4 GB RAM, INTEL HD GRAPHICS | 369.00
+                    ACER ASPIRE Z3-600 | desktop | AMD QUAD-CORE A4-5000 1.50 GHz, 4 GB RAM, AMD RADEON HD 8330 | 1399.00
+                    APPLE iMAC Z0MQ00071/BG | desktop | INTEL CORE i7-4770T, 16 GB RAM, NVIDIA GEFORCE GT 750M | 2949.00
+                    ACER ASPIRE V5-123-12104G50NSS | laptop | INTEL CELERON 1007U, 2 GB RAM, INTEL HD GRAPHICS | 489.00
+                    ACER ASPIRE XC-605 | desktop | INTEL PENTIUM 2117U, 4 GB RAM, INTEL HD GRAPHICS | 749.99
+                    DELL INSPIRON 3847/476756/477784 | laptop | Intel Core i5-4510U, 6 GB RAM, NVIDIA GeForce 9800GT | 1049.49
+                </textarea><br/>
+                <label for="minPrice">Minimum Price:</label><br/>
+                <input type="text" name="minPrice" id="minPrice"><br/>
+                <label for="maxPrice">Maximum Price:</label><br/>
+                <input type="text" name="maxPrice" id="maxPrice"><br/>
+                <label for="filter">Filter:</label><br/>
+                <input type="radio" name="filter" id="all" value="all"><label for="all">All</label>
+                <input type="radio" name="filter" id="desktop" value="desktop"><label for="desktop">Desktop</label>
+                <input type="radio" name="filter" id="laptop" value="laptop"><label for="laptop">Laptop</label><br/>
+                <label for="order">Order by:</label><br/>
+                <input list="order" name="order" placeholder="order">
+                <datalist id="order">
+                    <option id="ascending" value="ascending">ascending</option>
+                    <option id="descending" value="descending">descending</option>
+                </datalist><br/><br/>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
