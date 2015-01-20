@@ -35,24 +35,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16_MessageDecoder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/16_MessageDecoder.html">
+      <file leaf-file-name="17_GoshoIsMoving.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/17_GoshoIsMoving.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state vertical-scroll-proportion="-9.461538" vertical-offset="43" max-vertical-offset="680">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16_MessageDecoder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16_MessageDecoder.php">
+      <file leaf-file-name="17_GoshoIsMoving.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/17_GoshoIsMoving.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32733813" vertical-offset="90" max-vertical-offset="731">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <marker date="1421590709655" expanded="true" signature="826:841" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="0.2231986" vertical-offset="1012" max-vertical-offset="1649">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,6 +116,8 @@
         <option value="$PROJECT_DIR$/15_FutureDates.php" />
         <option value="$PROJECT_DIR$/16_MessageDecoder.html" />
         <option value="$PROJECT_DIR$/16_MessageDecoder.php" />
+        <option value="$PROJECT_DIR$/17_GoshoIsMoving.html" />
+        <option value="$PROJECT_DIR$/17_GoshoIsMoving.php" />
       </list>
     </option>
   </component>
@@ -315,20 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01_RainbowLetters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="833">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_DropIt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="697">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07_DropIt.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
@@ -638,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/box-office.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.576923" vertical-offset="383" max-vertical-offset="1020">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12_AffineEncoder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.94024605" vertical-offset="281" max-vertical-offset="1071">
@@ -665,21 +643,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16_MessageDecoder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="561">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16_MessageDecoder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32733813" vertical-offset="90" max-vertical-offset="731">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1421590709655" expanded="true" signature="826:841" placeholder="..." />
+            <marker date="1421590709655" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_MessageDecoder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35852373" vertical-offset="0" max-vertical-offset="569">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box-office.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.576923" vertical-offset="383" max-vertical-offset="1020">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_GoshoIsMoving.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.461538" vertical-offset="43" max-vertical-offset="680">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_GoshoIsMoving.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2231986" vertical-offset="1012" max-vertical-offset="1649">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
